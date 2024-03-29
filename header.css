@@ -1,0 +1,66 @@
+.header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    background-color: #444342;
+    width: 100%; /* Set width to 100% to span the entire width of the screen */
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.header p{
+    color:white;
+}
+.contact{
+    border-width: 1px;
+    background-color: #444342;
+    color: white;
+    width:156px;
+    height: 44px;
+    border-radius: 4px;
+    border-style: solid;
+    font-family:Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    transition-duration: 0.3s;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+}
+.contact:hover{
+    opacity: 0.5;
+    background-color: #7a7a7a;
+}
+.contact:active{
+    opacity:0.2;
+    transition-duration: 0.2s;
+}
+.header-text{
+    font-family: Maven Pro;
+    text-decoration: none;
+    color:white;
+    transition-duration: 0.2s;
+}
+.header-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.header-text:active{
+    opacity: 0.5;
+}
+.info{
+position: absolute;
+background-color: gray;
+color: white;
+border-radius: 2px;
+font-size: 12px;
+bottom:-10px;
+opacity: 0;
+
+}
+.tooltip:hover .info{
+    opacity: 1;
+}

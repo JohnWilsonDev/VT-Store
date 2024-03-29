@@ -1,0 +1,12 @@
+.items-box{
+    color: black;
+text-decoration: none;
+transition-duration: 0.5s;
+}
+.items-box:hover{
+    opacity: 0.5;
+}
+.items-box:active{
+    opacity: 0.3;
+    transition-duration: 0.2s;
+}
